@@ -37,7 +37,9 @@ h2 { color: var(--accent); }
 .links { list-style: none; padding: 0; }
 .links li { margin: .6rem 0; }
 .links a {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: .75rem;
   padding: .8rem 1rem;
   border: 1px solid var(--accent);
   border-radius: 8px;
@@ -45,6 +47,7 @@ h2 { color: var(--accent); }
   text-decoration: none;
   font-weight: 600;
 }
-.links a:hover, .links a:focus { background: var(--accent); color: #fff; }
+.icon { width: 1.4rem; height: 1.4rem; flex: none; }
+.links a:hover, .links a:focus { background: #e9f0ed; }
 
 footer { text-align: center; color: var(--muted); font-size: .9rem; padding-bottom: 2rem; }
